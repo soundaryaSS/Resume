@@ -1,0 +1,218 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\color{BrickRed}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{BrickRed}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{minipage}{1\textwidth}
+\begin{center}
+    {\Huge \scshape Soundarya S. Siddanagoudra} \\ \vspace{10pt}
+    \small
+    \faPhone\ +91-9535364636 ~
+    \faEnvelope\ \underline{Soundarya.siddanagoudra@tietoevry.com}
+    \vspace{4pt}\\
+    Bangalore, Karnataka, India
+\end{center}
+\end{minipage}
+
+\vspace{-5pt}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{
+Junior Software Engineer at TietoEVRY. I build full-stack web applications using Java and Python, with practical experience in Azure Cloud and DevOps. Recently trained in Scrum and Agile methodologies. I'm interested in cloud technologies and machine learning, and I'm looking to grow my skills while contributing to real-world projects.
+}
+
+\vspace{-6pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{TietoEVRY (Tieto India Pvt. Ltd.)}
+{April 2025 -- Present}
+{Junior Software Engineer}
+{Bangalore, India}
+
+\resumeItemListStart
+\resumeItem{Completed 1-month onboarding covering SDLC, Agile workflows, and modern web technologies; applied learnings immediately in project work.}
+\resumeItem{Attended Scrum workshop and used sprint methodologies (sprint planning, backlog management, retrospectives) in real project sprints.}
+\resumeItem{Finished 5-month technical training program in Linux administration, networking fundamentals, Azure DevOps pipelines, and Azure cloud services.}
+\resumeItem{Earned certificate of appreciation for contributions to Digital Human project presented at Tech Utsav 2025.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Heart Disease Prediction System} $|$ \emph{Python, Django, Machine Learning}}{6 Months}
+\resumeItemListStart
+\resumeItem{Built a web application that predicts heart disease risk using machine learning. Tested 3 different algorithms (Random Forest, Logistic Regression, SVM).}
+\resumeItem{Achieved 85\% accuracy on test data. Used Django for the web interface and Python for data processing and model training.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Hospital Management System} $|$ \emph{Java, JSP, MySQL, Tomcat}}{3 Months}
+\resumeItemListStart
+\resumeItem{Created a web application that manages hospital operations: patient registration, appointment scheduling, and staff management.}
+\resumeItem{Used JSP for the front-end, MySQL for the database, and Tomcat server to host it. Reduced time spent on manual data entry for the test hospital.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Curfew E-Pass Management System} $|$ \emph{HTML, CSS, PHP, MySQL}}{3 Months}
+\resumeItemListStart
+\resumeItem{Built a web platform that lets citizens apply for e-passes online during lockdowns. Different roles (admin, sub-admin, citizen) have different permissions.}
+\resumeItem{Replaced manual paper-based process with a digital system. Approval time went from several days to a few hours.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Linked List Visualization} $|$ \emph{C, C++, OpenGL}}{15 Days}
+\resumeItemListStart
+\resumeItem{Wrote a program that visually demonstrates how linked lists work using OpenGL graphics. Shows insertion and deletion operations in real-time.}
+\resumeItem{Helps students understand data structure concepts better by seeing the operations happen on screen instead of just reading about them.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-8pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item{
+\textbf{Programming Languages:} Java, Python, C, C++, JavaScript, HTML, CSS, PHP \\
+\textbf{Cloud \& DevOps:} Microsoft Azure, Azure DevOps, Azure Database, Linux, Networking \\
+\textbf{Databases:} SQL, MySQL, MySQL Workbench, Azure Database \\
+\textbf{Tools \& IDEs:} Git, GitHub, Android Studio, Eclipse, Visual Studio Code, Microsoft Azure Portal, Matplotlib \\
+\textbf{Frameworks:} Django, JSP, Tomcat \\
+\textbf{Methodologies:} Agile, Scrum \\
+\textbf{Languages:} English, Kannada, Hindi
+}
+\end{itemize}
+
+\vspace{-8pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item{
+$\bullet$ Java Full Stack Development (QSpider) \quad
+$\bullet$ Programming Using Java (Infosys Springboard) \\
+$\bullet$ Python Foundation (Infosys Springboard) \quad
+$\bullet$ Scrum Fundamentals (SCRUM Study) \\
+$\bullet$ Microsoft Azure Certification (IntelliPaat)
+}
+\end{itemize}
+
+\vspace{-8pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Alvas Institute of Engineering and Technology}
+{Graduated 2024}
+{B.E. Computer Science \& Engineering $|$ CGPA: 8.76/10}
+{Moodabidri, Karnataka}
+
+\resumeSubheading
+{Jawahar Navodaya Vidyalaya, Haveri (CBSE)}
+{}
+{Pre-University: 82\% \quad Secondary: CGPA 8.8/10}
+{}
+
+\resumeSubHeadingListEnd
+
+\end{document}
